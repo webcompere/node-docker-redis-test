@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="3" failures="0" errors="0" time="3.343">
+  <testsuite name="Lead service" errors="0" failures="0" skipped="0" timestamp="2023-08-08T08:10:37" time="3.065" tests="3">
+    <testcase classname="Lead service Cannot find unknown record" name="Lead service Cannot find unknown record" time="0.078">
+    </testcase>
+    <testcase classname="Lead service Will find a record it just stored" name="Lead service Will find a record it just stored" time="0.007">
+    </testcase>
+    <testcase classname="Lead service Will not find an expired record" name="Lead service Will not find an expired record" time="0.006">
+    </testcase>
+  </testsuite>
+</testsuites>
