@@ -32,3 +32,8 @@ beforeEach(async () => {
   await storageService.flushall();
 });
 ```
+
+> Warning: dockerode's `docker pull` doesn't quite seem to work, and you cannot just create
+> a container image by providing its name - it needs to have been pulled first.
+> I've solved this in other projects by simply adding `docker pull redis:6.2.6` or similar
+> to either the build script, or to the `test` script within `package.json`.
